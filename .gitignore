@@ -10,6 +10,7 @@
 
 # Bazel
 bazel-*
+MODULE.bazel.lock
 
 # CLion
 .clwb/

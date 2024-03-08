@@ -19,7 +19,12 @@ config_setting(
 
 config_setting(
     name = "darwin",
-    constraint_values = ["@platforms//os:macos"],
+    constraint_values = [
+        "@platforms//os:macos",
+        "@platforms//os:ios",
+        "@platforms//os:tvos",
+        "@platforms//os:visionos"
+    ],
     visibility = ["//visibility:public"],
 )
 
