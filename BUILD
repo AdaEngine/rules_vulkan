@@ -17,17 +17,6 @@ config_setting(
     visibility = ["//visibility:public"],
 )
 
-config_setting(
-    name = "darwin",
-    constraint_values = [
-        "@platforms//os:macos",
-        "@platforms//os:ios",
-        "@platforms//os:tvos",
-        "@platforms//os:visionos"
-    ],
-    visibility = ["//visibility:public"],
-)
-
 filegroup(
     name = "readme_file",
     srcs = [

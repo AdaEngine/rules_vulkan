@@ -26,10 +26,10 @@ def vulkan_repositories(sdk_path = None,
     )
 
     vulkan_macos(
-        name = "vulkan_macos",
+        name = "vulkan_darwin",
         path = sdk_path,
     )
-
+    
     vulkan_android(
         name = "vulkan_android",
         host_sdk_path = sdk_path,
